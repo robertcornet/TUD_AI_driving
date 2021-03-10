@@ -3,9 +3,9 @@
 
 Introduction
 
-#Getting Started
+# Getting Started
 
 Troubleshooting
 
 To Do
--better Inertial Navigation
+- better Inertial Navigation
