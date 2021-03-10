@@ -17,8 +17,8 @@
  - 
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
-|Tamiya TT-02 Chassis |1|140| https://www.conrad.nl/p/tamiya-tt-02-toyota-gazoo-yaris-wrt-brushed-110-rc-auto-elektro-straatmodel-4wd-bouwpakket-1876796 | |
-| | | | | |
+|Tamiya TT-02 Chassis |1|140| [Conrad](https://www.conrad.nl/p/tamiya-tt-02-toyota-gazoo-yaris-wrt-brushed-110-rc-auto-elektro-straatmodel-4wd-bouwpakket-1876796) | |
+|Steering Servo |1|69|[Conrad](https://www.conrad.nl/p/hitec-standaard-servo-hs-311-analoge-servo-materiaal-aandrijving-polyamide-stekkersysteem-jr-209893)| |
 | | | | | |
 
 
