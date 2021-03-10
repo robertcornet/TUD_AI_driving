@@ -8,6 +8,14 @@
  - Tamiya tt-01 foam front bumper
  - TRX battery cable
 
+| Component| Quantity | Cost | URL | Notes |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| | | | | |
+| | | | | |
+
+
+
 ## Batteries and Charger
   - Traxxas EZ-Peak 4a charger
   - Traxxas 5800 mah 2s LiPo battery
