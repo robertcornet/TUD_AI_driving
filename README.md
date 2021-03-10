@@ -1,7 +1,7 @@
 # TU Delft AI driving platform
 
 # Introduction
-This page contains all information regarding the TU Delft AI driving platform. This platform is for anyone who is interested in low-cost development on a vehicle platform, that is capable of interesting and dynamic driving manouevres.
+This page contains all information regarding the TU Delft AI driving platform. This platform is for anyone who is interested in low-cost development on a vehicle platform, that is capable of interesting and dynamic driving manouevres. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
 This platform offers the following:
 - low-cost dynamic driving with access to the relevant vehicle states.
