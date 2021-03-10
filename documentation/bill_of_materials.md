@@ -38,9 +38,19 @@
 |5.5mm/2.1mm barrel connector|1| |[Conrad](https://www.conrad.nl/p/voltcraft-laagspannings-aansluitkabel-laagspanningsstekker-open-kabeleinde-55-mm-21-mm-200-m-1-stuks-749123)| |
 
 ## Sensors
+| Component| Quantity | Cost | URL | Notes |
+| --- | --- | --- | --- | --- |
+|IMU|1| |[Antratek](https://www.antratek.nl/9dof-imu-breakout-icm-20948-qwiic)| |
+|QTR-1A Reflectance Sensor (2-Pack) Pololu 2458 |2|[VaM](https://www.vanallesenmeer.nl/QTR-1A-Reflectance-Sensor-(2-Pack)-Pololu-2458)| |Need 4 sensors |
+|Ultrasonic Sensors|(8)| |[Antratek](https://www.antratek.nl/hc-sr04-ultrasonic-sonar-distance-sensor)||
+
 
 ## Arduinos
-
+| Component| Quantity | Cost | URL | Notes |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| | | | | |
+| | | | | |
 ## Wiring
 
 ## Optional/comsumables
