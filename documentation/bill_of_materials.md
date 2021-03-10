@@ -1,4 +1,11 @@
 # Bill of Materials
+| Component| Quantity | Cost | URL | Notes |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| | | | | |
+| | | | | |
+
+
 
 ## Car
  - Tamiya tt-02 1/10th scale chassis
@@ -7,12 +14,13 @@
  - Low Friction 'drift' wheels
  - Tamiya tt-01 foam front bumper
  - TRX battery cable
-
+ - 
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
+|Tamiya TT-02 Chassis |1|140| https://www.conrad.nl/p/tamiya-tt-02-toyota-gazoo-yaris-wrt-brushed-110-rc-auto-elektro-straatmodel-4wd-bouwpakket-1876796 | |
 | | | | | |
 | | | | | |
-| | | | | |
+
 
 
 
