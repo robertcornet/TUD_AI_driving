@@ -45,7 +45,7 @@
 | --- | --- | --- | --- |
 |Arduino Nano Every|2|[Antratek](https://www.antratek.nl/arduino-nano-every-with-headers) | |
 |Arduino Nano sensor I/O shield v3.0|2|[VeM](https://www.vanallesenmeer.nl/Arduino-Nano-sensor-I/O-shield-v3.0) | |
-|USB A to Micro B cable|2|Conrad](https://www.conrad.nl/p/realpower-usb-20-aansluitkabel-1x-micro-usb-1x-micro-usb-stekker-6000-cm-zwart-2304825)] |>15 cm|
+|USB A to Micro B cable|2|[Conrad](https://www.conrad.nl/p/realpower-usb-20-aansluitkabel-1x-micro-usb-1x-micro-usb-stekker-6000-cm-zwart-2304825)] |>15 cm|
 
 
 ## Wiring, ~€200
@@ -61,8 +61,8 @@
 ## Optional/comsumables
 | Component| Quantity | URL | Notes |
 | --- | --- | --- | --- |
-|M3 screw assortiment| [Conrad](https://www.conrad.nl/p/thicon-models-20093-schroef-1-sets-1669366) | | |
-|M2x4-6 screws | [Conrad](https://www.conrad.nl/p/toolcraft-m2-x-6mm-to-5661774-cilinderschroeven-m2-6-mm-binnenzeskant-inbus-din-912-iso-4762-staal-100-stuks-1887258) | |4 needed for mounting wheel speed sensors|
+|M3 screw assortiment||[Conrad](https://www.conrad.nl/p/thicon-models-20093-schroef-1-sets-1669366)| | 
+|M2x4-6 screws || [Conrad](https://www.conrad.nl/p/toolcraft-m2-x-6mm-to-5661774-cilinderschroeven-m2-6-mm-binnenzeskant-inbus-din-912-iso-4762-staal-100-stuks-1887258) |4 needed for mounting wheel speed sensors|
 |Shrink tube assortiment| | | |
 |5-50k resistors |2x | |Splitting battery voltage for voltage monitor |
 
