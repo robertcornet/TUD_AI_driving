@@ -22,6 +22,8 @@ This page contains the following:
 Read the building instructions and order the chosen parts from the parts list. Print the desired CAD models with a 3d-printer and assemble the vehicle. Install the OS, software and write the code to the Arduino. You should now have a working platform.
 
 
+Assemble your car with the help of the [Build Guide](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/hardware_setup.md)
+
 
 # Troubleshooting
 
