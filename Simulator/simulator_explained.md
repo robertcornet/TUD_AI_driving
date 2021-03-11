@@ -28,5 +28,13 @@ Additionally, you can simulate what ultrasonic sensors would detect in different
 - detecting room/racetrack borders
 - single object detection (eg. determining distance to leading car)
 
+## Using the simulator
+- Define your objective and what states you have observable in your experiment
+- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The simulator updates at 1000hz for stable integration. 
+- Make sure only the observable states are returned to your learning algorithm!
+- Define how you want an episode to start (*def reset()*) and when to end (*done*)
+- Construct your reward so it promotes the desired behaviour
+
+
 ## See also
 For more specific details on the specifics of the vehicle motion simulation, refer to Chapter 2 of [this Thesis](https://repository.tudelft.nl/islandora/object/uuid%3A7bedb60a-ced8-4fcf-97ca-80208861a413)
