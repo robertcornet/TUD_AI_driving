@@ -18,7 +18,6 @@ This platform is for anyone who is interested in vehicle research that goes beyo
 - Print the [CAD models](https://github.com/robertcornet/TUD_AI_driving/tree/main/CAD)
 - Assemble your car with the help of the [Build Guide](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/build_guide.md)
 - Install the [Software](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/software_setup.md)
-- Flash the [code to the Arduinos](https://github.com/robertcornet/TUD_AI_driving/tree/main/Arduino) 
 
 Your platform should now be ready to begin! 
 If you want some extra help, check out the [Operation Manual](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/operation_manual.md). If you want to build a vehicle simulation to train your AI, check out the [Simulator section](https://github.com/robertcornet/TUD_AI_driving/tree/main/Simulator).
