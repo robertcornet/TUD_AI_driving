@@ -50,7 +50,7 @@
 | --- | --- | --- | --- | --- |
 |Arduino Nano Every|2||[Antratek](https://www.antratek.nl/arduino-nano-every-with-headers) | |
 |Arduino Nano sensor I/O shield v3.0|2||[VeM](https://www.vanallesenmeer.nl/Arduino-Nano-sensor-I/O-shield-v3.0) | |
-|USB A to Micro B cable|2||[Conrad(https://www.conrad.nl/p/realpower-usb-20-aansluitkabel-1x-micro-usb-1x-micro-usb-stekker-6000-cm-zwart-2304825)] |min 15 cm|
+|USB A to Micro B cable|2||[Conrad](https://www.conrad.nl/p/realpower-usb-20-aansluitkabel-1x-micro-usb-1x-micro-usb-stekker-6000-cm-zwart-2304825)] |>15 cm|
 
 
 ## Wiring
@@ -59,7 +59,7 @@
 | --- | --- | --- | --- | --- |
 |Short 3pin connector cable|3| |[Antratek](https://www.antratek.nl/3-pin-10-extension-cable)|Receiver to Arduino, >15cm|
 |Long 3 pin connector cable|4| |[VeM](https://www.vanallesenmeer.nl/Servo-Verlengkabel-RC-Futaba-JR-Man-vrouw-50-cm) |Wheel speed sensors, >50cm |
-|4 pin connector cable|8| |[Conrad]() |1 cable per Ultrasonic sensor |
+|4 pin connector cable|8| |[Antratek](https://www.antratek.nl/jumper-wire-0-1-4-pin-12) |1 cable per Ultrasonic sensor |
 |3 pin extension cable|3 | |[Conrad](https://www.conrad.nl/p/modelcraft-servo-verlengkabel-1x-jr-stekker-1x-jr-bus-2500-cm-014-mm-plat-223733) |voltage monitoring(2x) + ESC to Nano extension|
 |30cm m-m jumper cables|1 pack| |[Conrad](https://www.conrad.nl/p/makerfactory-jkff40-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-draadbrug-bus-40x-draadbrug-bus-3000-cm-bont-1970438) | IMU to Nano, 6 wires|
 
