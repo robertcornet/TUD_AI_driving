@@ -18,7 +18,7 @@ This platform is for anyone who is interested in vehicle research that goes beyo
 - Flash the [code to the Arduinos](https://github.com/robertcornet/TUD_AI_driving/tree/main/Arduino) 
 
 Your platform should now be ready to begin! 
-If you want some extra help, check out the [Operation Manual]. If you want to build a vehicle simulation to train your AI, check out the [Simulator section](https://github.com/robertcornet/TUD_AI_driving/tree/main/Simulator).
+If you want some extra help, check out the [Operation Manual](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/operation_manual.md). If you want to build a vehicle simulation to train your AI, check out the [Simulator section](https://github.com/robertcornet/TUD_AI_driving/tree/main/Simulator).
 
 ## related projects
 - [BARC](https://github.com/MPC-Berkeley/barc)
