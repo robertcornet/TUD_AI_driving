@@ -1,7 +1,7 @@
 # TU Delft AI driving platform
 
 # Introduction
-This page contains all information regarding the TU Delft AI driving platform. This platform is for anyone who is interested in low-cost development on a vehicle platform, that is capable of interesting and dynamic driving manouevres. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
+This page contains all information regarding the TU Delft AI driving platform. This platform is for anyone who is interested in low-cost development on a vehicle platform that is capable of interesting and dynamic driving manouevres. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
 This platform offers the following:
 - low-cost dynamic driving with access to the relevant vehicle states.
@@ -25,6 +25,11 @@ Assemble your car with the help of the [Build Guide](https://github.com/robertco
 # Troubleshooting
 
 # related projects
+- [BARC](https://github.com/MPC-Berkeley/barc)
+- [NVIDIA JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer)
+- [AutoRally](https://autorally.github.io/)
+- [DonkeyCar](https://www.donkeycar.com/)
+
 
 
 # To Do
