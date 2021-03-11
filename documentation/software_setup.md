@@ -19,6 +19,25 @@ Install [TensorFlow](https://www.tensorflow.org/) or [TensorFlow Lite](https://w
 Installing the full version of TensorFlow on an ARM system such as the Odroid can be difficult. Compiling the Tensorflow Wheel yourself is slow and requires some experience.
 [This guide](https://www.jianshu.com/p/375cacb4c0f2) will help you to install a [precompiled ARM version](https://github.com/lhelontra/tensorflow-on-arm/releases) of TensorFlow on your Odroid XU-4.
 
-
 ## Remote Access
 You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Keep in mind that remote access is slower than working on the computer directly; connect to the Odroid over USB/HDMI directly for longer sessions.
+
+## Arduino IDE
+Install the [Arduino IDE](https://www.arduino.cc/en/software/) to write code to the Arduinos.
+
+Through Arduinos Library Managers, install the following libraries:
+- [Rosserial library](https://www.arduino.cc/reference/en/libraries/rosserial-arduino-library/)
+- [Sparkfun ICM-20948 library](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary)
+
+The vehicle has 2 of the new Arduino Nano boards, called the Arduino Nano Every. This is a board with the new Mega-AVR architecture, instead of the standard AVR architecture of the common Uno boards. (Note: the official terminology of Mega-AVR and AVR is different between Arduino and the chip maker.) Unfortunately, many libraries are not compatible without a little care of modification.
+	
+For the Rosserial Library:
+    Use Arduino AVR board manager 1.8.4 or older
+
+For the Sparkfun ICM library (for the sparkfun IMU)
+		1.	Open ICM_20948.cpp 
+		2.	Go to line 750, column 35
+		3. 	change
+			> digitalWrite(_ad0, _ad0val);
+			to
+			> digitalWrite(_ad0, (PinStatus)_ad0val);
