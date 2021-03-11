@@ -7,7 +7,7 @@
 
 
 
-## Car
+## Car ~€230
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
 |Tamiya TT-02 Chassis |1|140| [Conrad](https://www.conrad.nl/p/tamiya-tt-02-toyota-gazoo-yaris-wrt-brushed-110-rc-auto-elektro-straatmodel-4wd-bouwpakket-1876796) | |
@@ -17,14 +17,14 @@
 |TT-01 Foam Front bumper|1|69|[Conrad](https://www.conrad.nl/p/tamiya-53683-reserveonderdeel-bumper-1498380)|Optional|
 |Battery Cable + Connector|1|6.9|[Conrad](https://www.conrad.nl/p/accu-kabel-1x-trx-stekker-1x-open-kabeleinde-3000-cm-40-mm-modelcraft-208481)|Use a connector that matches your batteries|
 
-## Charger and Batteries
+## Charger and Batteries, ~€150
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
 |Traxxas EZ-Peak 4a charger|1|69|[Conrad](https://www.conrad.nl/p/traxxas-ez-peak-plus-4a-multifunctionele-modelbouwlader-100-v-230-v-4-a-1969902)| |
 |Traxxas 5800 mah 2s LiPo battery|1+|69|[Conrad](https://www.conrad.nl/p/traxxas-lipo-accupack-74-v-5800-mah-aantal-cellen-2-25-c-box-hardcase-traxxas-id-1432751)||
 
 
-## Computer
+## Computer, ~€200
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
 |Odroid XU-4|1| |[Antratek](https://www.antratek.nl/odroid-xu4-octa-core-computer-with-samsung-exynos-5422)| |
@@ -37,7 +37,7 @@
 |DC-DC Stepdown Converter|1| |[Conrad](https://www.conrad.nl/p/master-bec-spanningsregelaar-6-25-v-6-a-1435726)|Any 5v 4a+ DC-DC converter should work|
 |5.5mm/2.1mm barrel connector|1| |[Conrad](https://www.conrad.nl/p/voltcraft-laagspannings-aansluitkabel-laagspanningsstekker-open-kabeleinde-55-mm-21-mm-200-m-1-stuks-749123)| |
 
-## Sensors
+## Sensors, /~€65
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
 |IMU|1| |[Antratek](https://www.antratek.nl/9dof-imu-breakout-icm-20948-qwiic)| |
@@ -45,7 +45,7 @@
 |Ultrasonic Sensors|(8)| |[Antratek](https://www.antratek.nl/hc-sr04-ultrasonic-sonar-distance-sensor)||
 
 
-## Arduinos
+## Arduinos, ~€40
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
 |Arduino Nano Every|2||[Antratek](https://www.antratek.nl/arduino-nano-every-with-headers) | |
@@ -53,7 +53,7 @@
 |USB A to Micro B cable|2||[Conrad](https://www.conrad.nl/p/realpower-usb-20-aansluitkabel-1x-micro-usb-1x-micro-usb-stekker-6000-cm-zwart-2304825)] |>15 cm|
 
 
-## Wiring
+## Wiring, ~€200
 
 | Component| Quantity | Cost | URL | Notes |
 | --- | --- | --- | --- | --- |
@@ -64,3 +64,10 @@
 |30cm m-m jumper cables|1 pack| |[Conrad](https://www.conrad.nl/p/makerfactory-jkff40-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-draadbrug-bus-40x-draadbrug-bus-3000-cm-bont-1970438) | IMU to Nano, 6 wires|
 
 ## Optional/comsumables
+| Component| Quantity | Cost | URL | Notes |
+| --- | --- | --- | --- | --- |
+|M3 screw assortiment| |[Conrad](https://www.conrad.nl/p/thicon-models-20093-schroef-1-sets-1669366) | | |
+|M2x4-6 screws | |[Conrad](https://www.conrad.nl/p/toolcraft-m2-x-6mm-to-5661774-cilinderschroeven-m2-6-mm-binnenzeskant-inbus-din-912-iso-4762-staal-100-stuks-1887258) | |4 needed for mounting wheel speed sensors|
+|Shrink tube assortiment| | | | |
+|5-50k resistors |2x | | |Splitting battery voltage for voltage monitor |
+
