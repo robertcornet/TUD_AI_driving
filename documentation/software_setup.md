@@ -39,5 +39,7 @@ For the Sparkfun ICM library (for the sparkfun IMU)
 2.	Go to line 750, column 35
 3. 	change
 > digitalWrite(_ad0, _ad0val);
-	to
+
+to
+
 > digitalWrite(_ad0, (PinStatus)_ad0val);
