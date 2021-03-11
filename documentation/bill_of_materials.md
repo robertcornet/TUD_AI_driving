@@ -2,7 +2,7 @@
 
 
 
-## Car ~€230
+## Car, ~€230
 | Component| Quantity | URL | Notes |
 | --- | --- | --- | --- |
 |Tamiya TT-02 Chassis |1| [Conrad](https://www.conrad.nl/p/tamiya-tt-02-toyota-gazoo-yaris-wrt-brushed-110-rc-auto-elektro-straatmodel-4wd-bouwpakket-1876796) | |
@@ -32,7 +32,7 @@
 |DC-DC Stepdown Converter|1|[Conrad](https://www.conrad.nl/p/master-bec-spanningsregelaar-6-25-v-6-a-1435726)|Any 5v 4a+ DC-DC converter should work|
 |5.5mm/2.1mm barrel connector|1|[Conrad](https://www.conrad.nl/p/voltcraft-laagspannings-aansluitkabel-laagspanningsstekker-open-kabeleinde-55-mm-21-mm-200-m-1-stuks-749123)| |
 
-## Sensors, /~€65
+## Sensors, ~€65
 | Component| Quantity  | URL | Notes |
 | --- | --- | --- | --- |
 |IMU|1|[Antratek](https://www.antratek.nl/9dof-imu-breakout-icm-20948-qwiic)| |
