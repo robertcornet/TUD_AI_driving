@@ -35,9 +35,9 @@ For the Rosserial Library:
     Use Arduino AVR board manager 1.8.4 or older
 
 For the Sparkfun ICM library (for the sparkfun IMU)
-		1.	Open ICM_20948.cpp 
-		2.	Go to line 750, column 35
-		3. 	change
-			> digitalWrite(_ad0, _ad0val);
-			to
-			> digitalWrite(_ad0, (PinStatus)_ad0val);
+1.	Open ICM_20948.cpp 
+2.	Go to line 750, column 35
+3. 	change
+> digitalWrite(_ad0, _ad0val);
+	to
+> digitalWrite(_ad0, (PinStatus)_ad0val);
