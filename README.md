@@ -23,7 +23,7 @@ This platform is for anyone who is interested in vehicle research that goes beyo
 Your platform should now be ready to begin! 
 If you want some extra help, check out the [Operation Manual](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/operation_manual.md). If you want to build a vehicle simulation to train your AI, check out the [Simulator section](https://github.com/robertcornet/TUD_AI_driving/tree/main/Simulator).
 
-## related projects
+## See Also
 - [BARC](https://github.com/MPC-Berkeley/barc)
 - [NVIDIA JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer)
 - [AutoRally](https://autorally.github.io/)
