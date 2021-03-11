@@ -10,18 +10,15 @@ This platform offers the following:
 - Modular platform for easy addition of sensors
 
 This page contains the following:
- - Parts list
- - Building instructions for the vehicle
- - CAD models for all parts
- - Required software 
- - Code
+ - [Bill of Materials](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/bill_of_materials.md)
+ - [Building instructions for the vehicle](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/build_guide.md)
+ - [CAD models](https://github.com/robertcornet/TUD_AI_driving/tree/main/CAD)
+ - [Software installation](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/software_setup.md)
+ - [Arduino code](https://github.com/robertcornet/TUD_AI_driving/tree/main/Arduino) 
  - Operation manual
- - Simulator
+ - [Simulator](https://github.com/robertcornet/TUD_AI_driving/tree/main/Simulator)
 
 # Getting Started
-Read the building instructions and order the chosen parts from the parts list. Print the desired CAD models with a 3d-printer and assemble the vehicle. Install the OS, software and write the code to the Arduino. You should now have a working platform.
-
-
 Assemble your car with the help of the [Build Guide](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/hardware_setup.md)
 
 
