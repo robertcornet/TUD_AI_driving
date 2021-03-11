@@ -28,5 +28,5 @@ If you want some extra help, check out the [Operation Manual](https://github.com
 
 
 ## To Do
--Better Inertial Navigation
+- Better Inertial Navigation
 - Camera Vision
