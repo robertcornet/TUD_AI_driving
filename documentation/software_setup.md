@@ -21,4 +21,4 @@ Installing the full version of TensorFlow on an ARM system such as the Odroid ca
 
 
 ## Remote Access
-You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Remote access is a lot slower than working on the computer directly. Connect to the Odroid over USB/HDMI directly for longer sessions.
+You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Keep in mind that remote access is slower than working on the computer directly; connect to the Odroid over USB/HDMI directly for longer sessions.
