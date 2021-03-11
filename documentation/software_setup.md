@@ -11,8 +11,8 @@ Alternatively, you can buy a memory module with the OS already installed.
 ## WiFi Drivers
 Many USB WiFi dongles are not directly supported on all Linux kernels. If your WiFi module is not working, you likely need to install your drivers manually. For the WiFi module in the [Bill of Materials](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/bill_of_materials.md), use these [drivers](https://github.com/lwfinger/rtl8723bu).
 
-## ROS
-Install the for your Linux version. [ROS](https://www.ros.org/) is used to communicate between your Arduinos and your computer. If you are unfamiliar with ROS, follow their excellent [Beginner Level turtorials](http://wiki.ros.org/ROS/Tutorials)
+## Robot Operating System (ROS)
+Install the correct ROS distribution for your Linux version. [ROS](https://www.ros.org/) is used to communicate between your Arduinos and your computer. If you are unfamiliar with ROS, follow their excellent [Beginner Level turtorials](http://wiki.ros.org/ROS/Tutorials)
 
 ## TensorFlow / TensorFlow Lite
 Install [TensorFlow](https://www.tensorflow.org/) or [TensorFlow Lite](https://www.tensorflow.org/lite) if you want to execute your trained Neural Networks on the car.
