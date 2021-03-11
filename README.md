@@ -1,15 +1,21 @@
 # TU Delft AI driving platform
 
 # Introduction
-This page contains all information regarding the TU Delft AI driving platform. This platform is for anyone who is interested in low-cost development on a vehicle platform that is capable of interesting and dynamic driving manouevres. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
+This page contains all information regarding the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
-This platform offers the following:
+## Who is it for?
+This platform is for anyone who is interested in vehicle research that goes beyond navigation tasks and focusses on dynamic vehicle behaviour and vehicle stability. The onboard accelerometers, gyros and individual wheel speed sensors provide a good basis for developing impressive vehicle controllers.
+
+## What does it offer?
 - low-cost dynamic driving with access to the relevant vehicle states.
 - small scale suitable for compact spaces
-- Onboard computer capable of running tensorflow
+- Onboard TensorFlow integration for AI driving
 - Modular platform for easy addition of sensors
 
-This page contains the following:
+
+
+
+## Quick Navigation
  - [Bill of Materials](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/bill_of_materials.md)
  - [Building instructions for the vehicle](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/build_guide.md)
  - [CAD models](https://github.com/robertcornet/TUD_AI_driving/tree/main/CAD)
@@ -18,13 +24,12 @@ This page contains the following:
  - Operation manual
  - [Simulator](https://github.com/robertcornet/TUD_AI_driving/tree/main/Simulator)
 
-# Getting Started
+## Getting Started
 Assemble your car with the help of the [Build Guide](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/hardware_setup.md)
 
 
-# Troubleshooting
 
-# related projects
+## related projects
 - [BARC](https://github.com/MPC-Berkeley/barc)
 - [NVIDIA JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer)
 - [AutoRally](https://autorally.github.io/)
@@ -32,5 +37,5 @@ Assemble your car with the help of the [Build Guide](https://github.com/robertco
 
 
 
-# To Do
+## To Do
 - better Inertial Navigation
