@@ -2,15 +2,90 @@
 
 This document will guide you step by step through the build process of the vehicle. Get your tools and materials ready and build along!
 
-## Required skills
+### Required skills
 - Soldering servo wires, header pins and battery connectors
 - Basic assembly skills
-- 
-## Required tools and materials
+ 
+### Required tools and materials
+- Set of Phillips-style screwdrivers
+- 2mm Hex screwdriver
 - Access to a 3D-printer or 3D-print service
 - Knife, scissors, wire stripping tools
 - Hot glue gun
-- M3 tap
+- M3 thread cutting tool
+- Soldering iron
 - Adhesive aluminium foil/tape or IR-reflective tape
+- Small zip ties
+
+# Part 1, the chassis
+Start by building the TT-02 chassis with the help of the included instructions. Use the included foam (front)bumper in the rear, and the  optional tt-01 bumper in the front. Your vehicle should now look similar to this:
+
+# Part 2, Battery Power Wiring
+The power from the battery is split to the Vehicle Electronic Speed Controller (ESC) and the DC step down to power on-board computer. We will also add a third connector so we can monitor the battery voltage.
+ 
+NOTE:
+If you use and ESC with lipo-compatible battery voltage cut-off, it will prevent the ESC from draining the battery too far. However, the on-board computer will still drain the battery. Thus, a battery monitor is recommended in any situation.
+ 
+Solder the wires together and pay attention to the polarity of the components. Leave about 15cm of battery wire. Cover the wires with heat shrink tube (remember to put it in place before soldering the wires together). This protects the exposed wires from shorting and provides strain relief for the smaller wires.
+
+
+
+
+Solder the barrel connector to the output of the DC-DC step down converter. Make sure the output is set to 5 volts!
+
+
+# Part 3, The Frame
+
+The holes in the 3d printed parts are not threaded yet. It is recommended to run a tap trough the holes first. The holes are sized for M3x0.5 threads.
+
+The threads in the upper deck are intended to be reused frequently, and therefor made with m3 nuts. The hexagon cutouts are slightly undersized. The nuts can be pressed in the deck, but it is recommended to use a little bit of heat to soften the plastic. This can be done with a soldering iron on low heat. Heat the nut until the plastic starts to soften and the nut sinks into the deck. This should only take 5~10 seconds on 250-300 C.  Quickly remove the heat source, turn the part around and press it on a flat surface for a few seconds. This way, the nuts will sit flat and square:
+
+
+
+Remove the screws on the front and rear bulkhead and use them to mount the deck supports:
+
+Mount the deck brace to the underside of the front and rear deck plates, and mount the combined deck to the deck supports:
+
+# Part 4, Electronics
+## Wheels speed sensors and encoder disks
+ 
+Cut the connector of 1 end of the 3-pin wires and solder them to the IR reflectance sensors (4x). 
+Use the following lengths or more:
+2x 50cm (rear wheels)
+2x 30 cm (front wheels)
+
+Remove the wheels and the standard wheel carriers. Use hot glue to secure the sensor mounts in the orientation as shown, with the mounting plate facing down and away from the center! It may be necessary to trim some of the excess material on the wheel hubs.
+
+Bolt the sensors to the wheel hubs with M2x6 bolts and zip tie the wires to the linkages for some strain relief from the solder connections:
+
+Cover the encoder disks with aluminium foil or similar with good IR reflectivity, and mount them on the axles. They will snap in place on the original locking pin:
+ 
+
+## IMU, Arduino, Odroid
+
+Screw the IMU down on the IMU support plate, and mount the support plate in the center of the deck. Do the same for the Arduino Nano shield, and the Odroid computer mount:
+
+## Wiring and Cable Management
+It is important that all wires are clear of the moving parts of the vehicle. This applies mainly to the center driveshaft and the steering linkages.
+The DC-DC converter can be zip tied to the motor wires under the top deck:
+
+The encoder cables and IMU cable can be secured between the IMU mounting plate and the deck brace:
+
+Tie the battery wires to the brace as well, so you are not pulling on the fragile wires when changing batteries!
+
+
+RECEIVER
+The receiver can be wired to the Arduino with 3x 3 pin connectors:
+Stick the receiver on top of the servo with double sided tape.
+ESC/SERVO POWER
+
+The Tamiya ESC provides 5v power over the 3 pin conector. We will use that to power the steering servo. This is to make sure the Arduino is not powered from two different sources (USB and ESC) and the servo doesn’t draw too much power from the Arduino. 
+We will remove the positive (+) pin from the 3 pin connectors and wire them together. You can use a knife or small screwdriver to lift the retention on the connector:
+
+2 header pins can be used to make a jumper, or the wires can be soldered together directly. Make sure the wires can not create a short on any of the components!
+
+
+
+
 
 
