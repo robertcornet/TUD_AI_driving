@@ -14,6 +14,10 @@ Many USB WiFi dongles are not directly supported on all Linux kernels. If your W
 ## Robot Operating System (ROS)
 Install the correct ROS distribution for your Linux version. [ROS](https://www.ros.org/) is used to communicate between your Arduinos and your computer. If you are unfamiliar with ROS, follow their excellent [Beginner Level turtorials](http://wiki.ros.org/ROS/Tutorials)
 
+# how to copy complete workspace?
+
+
+
 ## TensorFlow / TensorFlow Lite
 Install [TensorFlow](https://www.tensorflow.org/) or [TensorFlow Lite](https://www.tensorflow.org/lite) if you want to execute your trained Neural Networks on the car.
 Installing the full version of TensorFlow on an ARM system such as the Odroid can be difficult. Compiling the Tensorflow Wheel yourself is slow and requires some experience.
@@ -43,3 +47,5 @@ For the Sparkfun ICM library (for the sparkfun IMU):
 to
 
 > digitalWrite(_ad0, (PinStatus)_ad0val);
+
+# RUN MAKE-LIBRARY to generate message files before writing the Arduino code
