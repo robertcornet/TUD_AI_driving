@@ -1,7 +1,8 @@
 # TU Delft AI driving platform
 This GitHub contains all information regarding the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
-![Car](/images/TUDAI1.jpg)
+
+<img src="/images/TUDAI1.jpg" height=256>
 
 ## Who is it for?
 This platform is for anyone who is interested in vehicle research that goes beyond navigation tasks and focusses on dynamic vehicle behaviour and vehicle stability. The onboard accelerometers, gyros and individual wheel speed sensors provide a good basis for developing impressive vehicle controllers.
