@@ -34,7 +34,7 @@ The vehicle has 2 of the new Arduino Nano boards, called the Arduino Nano Every.
 For the Rosserial Library:
     Use Arduino AVR board manager 1.8.4 or older
 
-For the Sparkfun ICM library (for the sparkfun IMU)
+For the Sparkfun ICM library (for the sparkfun IMU):
 1.	Open ICM_20948.cpp 
 2.	Go to line 750, column 35
 3. 	change
