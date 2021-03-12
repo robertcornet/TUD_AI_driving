@@ -27,8 +27,11 @@ Installing the full version of TensorFlow on an ARM system such as the Odroid ca
 You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Keep in mind that remote access is slower than working on the computer directly; connect to the Odroid over USB/HDMI directly for longer sessions.
 
 ## Arduino IDE
+
+### IDE
 Install the [Arduino IDE](https://www.arduino.cc/en/software/) to write code to the Arduinos.
 
+### Libraries
 Through Arduinos Library Managers, install the following libraries:
 - [Rosserial library](https://www.arduino.cc/reference/en/libraries/rosserial-arduino-library/)
 - [Sparkfun ICM-20948 library](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary)
@@ -48,4 +51,12 @@ to
 
 > digitalWrite(_ad0, (PinStatus)_ad0val);
 
-# RUN MAKE-LIBRARY to generate message files before writing the Arduino code
+### ROS Message files
+The ROS communication relies on custom messages. The library for them can be generated as follows:
+Creating message.h files for Arduino:
+
+1. cd to your arduino <library folder>
+2. Delete ros_lib folder if you want to re-generate
+> rosrun rosserial_arduino make_libraries.py 
+
+
