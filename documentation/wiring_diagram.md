@@ -11,9 +11,9 @@
 		A6 = To Servo
 		A7 = To Electronic Speed Controller
 
-		1 = Steering in 										(receiver channel 1)
-		2 = Throttle in 										(receiver channel 2)
-		3 = AUX in                          (receiver channel 3)
+		1 = Steering in			(receiver channel 1)
+		2 = Throttle in			(receiver channel 2)
+		3 = AUX in			(receiver channel 3)
 
 		4 = Wheel Encoder (FL)
 		5 = Wheel Encoder (FR)
