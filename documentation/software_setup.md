@@ -55,7 +55,7 @@ to
 The ROS communication relies on custom messages. The library for them can be generated as follows:
 Creating message.h files for Arduino:
 
-1. cd to your arduino <library folder>
+1. cd to your Arduino library folder
 2. Delete ros_lib folder if you want to re-generate
 > rosrun rosserial_arduino make_libraries.py 
 
