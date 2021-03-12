@@ -66,6 +66,8 @@ Cover the encoder disks with aluminium foil or similar with good IR reflectivity
 Screw the IMU down on the IMU support plate, and mount the support plate in the center of the deck. Do the same for the Arduino Nano shield, and the Odroid computer mount:
 
 ## Wiring and Cable Management
+Hook up the sensors to the Arduino's with the help of the [Wiring Diagram](/documentation/wiring_diagram.md).
+
 It is important that all wires are clear of the moving parts of the vehicle. This applies mainly to the center driveshaft and the steering linkages.
 The DC-DC converter can be zip tied to the motor wires under the top deck:
 
