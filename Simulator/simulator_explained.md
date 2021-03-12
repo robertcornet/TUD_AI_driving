@@ -1,7 +1,7 @@
 # The Simulator Explained
 
 ## Learning Algorithms
-The simulator is used in combination with the Reinforcement Learning programs from the [RLControlTheoreticGuarantee Github](https://github.com/RLControlTheoreticGuarantee/). 
+The simulator is used in combination with the Reinforcement Learning programs from the [RLControlTheoreticGuarantee Github](https://github.com/RLControlTheoreticGuarantee/Guarantee_Learning_Control). 
 
 Inluded on this page is a folder with an older copy of that github, including the vehicle simulator. 
 If you follow their installation guide, you can download the folder above and start training immediately.
