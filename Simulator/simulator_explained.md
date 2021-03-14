@@ -11,6 +11,7 @@ If you follow their installation guide, you can download the folder above and st
 The ESC puts out a voltage to the motor depending on the input signal. 
 The input is a PWM signal with pulses between 1000us (full throttle) and 2000us (full braking).
 This behaviour is modelled in the simulator as a voltage multiplier; the ESC acts as a multiplier in range [0-1] between the battery voltage and motor.
+For the TBLE-02S ESC included in the Tamiya kit, the following values were measured:
 
 
 |Throttle %|Voltage Mult.|
