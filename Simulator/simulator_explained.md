@@ -13,8 +13,21 @@ The input is a PWM signal with pulses between 1000us (full throttle) and 2000us 
 This behaviour is modelled in the simulator as a voltage multiplier; the ESC acts as a multiplier in range [0-1] between the battery voltage and motor.
 
 
-
-
+|Throttle %|Voltage Mult.|
+|---|---|
+|0|0|
+|7.5|0|
+|7.6|0.44|
+|10|0.53|
+|20|0.75|
+|30|0.84|
+|40|0.89|
+|50|0.94|
+|60|0.96|
+|70|1|
+|80|1|
+|90|1|
+|100|1|
 
 ## The vehicle simulator is a OpenAI environment written in Python. 
 
