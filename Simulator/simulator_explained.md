@@ -30,6 +30,23 @@ For the TBLE-02S ESC included in the Tamiya kit, the following values were measu
 |90|1|
 |100|1|
 
+## The Motor
+Tamiya specifies a motor KV (RPM per volt) of 2222. Our measurements revealed a KV closer to 2775:
+|Voltage|Motor RPM|KV|
+|---|---|---|
+|3.45|9322|2702|
+|4.09|11376|2781|
+|5.82|16116|2769|
+|6.57|18179|2765|
+|6.95|19276|2774|
+|7.30|20540|2813|
+|7.48|20935|2798|
+|7.79|21725|2789|
+
+
+
+
+
 ## The vehicle simulator is a OpenAI environment written in Python. 
 
 # inputs/outputs
