@@ -56,4 +56,15 @@ Important: Lipo batteries can be a fire hazard if handled incorrectly. Only char
 Do not let the voltage get too low. The vehicle will drain the battery completely if it is not disconnected. The battery monitor on the vehicle provides a reference for the voltage. If the voltage gets too low, the alarm will sound. 
 The individual cell voltage can not be measured, only the sum (total voltage) is valid.
 
+## Ultrasonic sensors
+Ultrasonic sensors are used as a cheap way to observe the environment as an alternative to using camera vision. 
 
+The vehicle can be equipped with a number of ultrasonic sensors in different configurations. The intention was to use ultrasonic sensors as a low cost alternative to lidar sensors. Even the cheapest lidar units will cost 140-200E per unit, which is vastly more expensive than the 4E ultrasonic units. 
+
+However, in testing it turns out that the usability of ultrasonic sensors is limited:
+
+1. If the sensor is not pointing perpendicular to the surface it is supposed to measure, the sound waves will not bounce back to the receiver and the surface will not be observed correctly.
+
+2. 	Another limitation of ultrasonic sensors is the relative slow speed of sound. This means that the sensors can not be polled at rates over 30hz. Normally, each sensor is polled individually, and the next sensor in the array is polled only after the first has received its echo (or has timed out). This would slow the update rate down to unusable levels for multiple sensors. 
+
+3. The sensors have a fairly wide, and not always consistent FOV. This means that a sensor will pick up any object in its FOV, not only the distance straigth ahead.
