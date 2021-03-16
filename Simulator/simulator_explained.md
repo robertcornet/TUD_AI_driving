@@ -1,5 +1,24 @@
 # The Simulator Explained
 
+
+
+## SIMULATING LIDAR
+
+The simulator supports simulating lidar behaviour in a few different ways.
+
+1,2: Ray Tracing
+tracing each ray and determining the distance to the nearest wall-line segment.
+A wall-line can be:
+1. left/right wall of the track.
+2. the walls of a room
+
+This methond only measures the distance in the center of the FOV of the sensor.
+
+3, FOV:
+determining the distance between the car and an object, and triggering all sensors for which that object is in its FOV. 
+
+
+
 ## Learning Algorithms
 The simulator is used in combination with the Reinforcement Learning programs from the [RLControlTheoreticGuarantee Github](https://github.com/RLControlTheoreticGuarantee/Guarantee_Learning_Control). 
 
