@@ -16,6 +16,7 @@ This methond only measures the distance in the center of the FOV of the sensor.
 
 3, FOV:
 determining the distance between the car and an object, and triggering all sensors for which that object is in its FOV. 
+This is used to detect the leading car, in case of car following
 
 
 
