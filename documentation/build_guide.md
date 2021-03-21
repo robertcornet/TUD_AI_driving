@@ -22,11 +22,18 @@ Start by building the TT-02 chassis with the help of the included instructions. 
 
 <a></a>
 <img src="/images/01.jpg" height=128/>
-<img src="https://user-images.githubusercontent.com/25759564/62111577-b0d99000-b265-11e9-9182-6e19957b4cff.png" height=128/>
+<img src="/images/02.jpg" height=128/>
 
 
 # Part 2, Battery Power Wiring
 The power from the battery is split to the Vehicle Electronic Speed Controller (ESC) and the DC step down to power on-board computer. We will also add a third connector so we can monitor the battery voltage.
+
+<a></a>
+<img src="/images/04.jpg" height=128/>
+<img src="/images/05.jpg" height=128/>
+<img src="/images/07.jpg" height=128/>
+<img src="/images/09.jpg" height=128/>
+ 
  
 NOTE:
 If you use and ESC with lipo-compatible battery voltage cut-off, it will prevent the ESC from draining the battery too far. However, the on-board computer will still drain the battery. Thus, a battery monitor is recommended in any situation.
