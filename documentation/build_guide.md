@@ -73,6 +73,7 @@ Mount the deck brace to the underside of the front and rear deck plates, and mou
 <img src="/images/24.jpg" height=128/>
 <img src="/images/25.jpg" height=128/>
 <img src="/images/27.jpg" height=128/>
+
 # Part 4, Electronics
 ## Wheels speed sensors and encoder disks
  
