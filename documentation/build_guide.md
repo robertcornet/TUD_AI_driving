@@ -49,15 +49,26 @@ Solder the barrel connector to the output of the DC-DC step down converter. Make
 # Part 3, The Frame
 
 The holes in the 3d printed parts are not threaded yet. It is recommended to run a tap trough the holes first. The holes are sized for M3x0.5 threads.
+<a></a>
+<img src="/images/12.jpg" height=128/>
 
 The threads in the upper deck are intended to be reused frequently, and therefor made with m3 nuts. The hexagon cutouts are slightly undersized. The nuts can be pressed in the deck, but it is recommended to use a little bit of heat to soften the plastic. This can be done with a soldering iron on low heat. Heat the nut until the plastic starts to soften and the nut sinks into the deck. This should only take 5~10 seconds on 250-300 C.  Quickly remove the heat source, turn the part around and press it on a flat surface for a few seconds. This way, the nuts will sit flat and square:
-
+<a></a>
+<img src="/images/20.jpg" height=128/>
+<img src="/images/22.jpg" height=128/>
+<img src="/images/23.jpg" height=128/>
 
 
 Remove the screws on the front and rear bulkhead and use them to mount the deck supports:
+<a></a>
+<img src="/images/15.jpg" height=128/>
+<img src="/images/19.jpg" height=128/>
 
 Mount the deck brace to the underside of the front and rear deck plates, and mount the combined deck to the deck supports:
-
+<a></a>
+<img src="/images/24.jpg" height=128/>
+<img src="/images/25.jpg" height=128/>
+<img src="/images/27.jpg" height=128/>
 # Part 4, Electronics
 ## Wheels speed sensors and encoder disks
  
