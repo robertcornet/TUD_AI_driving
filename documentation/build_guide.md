@@ -82,40 +82,79 @@ Use the following lengths or more:
 2x 50cm (rear wheels)
 2x 30 cm (front wheels)
 
+<a></a>
+<img src="/images/33.jpg" height=128/>
+<img src="/images/34.jpg" height=128/>
+<img src="/images/35.jpg" height=128/>
+
 Remove the wheels and the standard wheel carriers. Use hot glue to secure the sensor mounts in the orientation as shown, with the mounting plate facing down and away from the center! It may be necessary to trim some of the excess material on the wheel hubs.
+
+<a></a>
+<img src="/images/31.jpg" height=128/>
+<img src="/images/32.jpg" height=128/>
+
 
 Bolt the sensors to the wheel hubs with M2x6 bolts and zip tie the wires to the linkages for some strain relief from the solder connections:
 
+<a></a>
+<img src="/images/36.jpg" height=128/>
+
 Cover the encoder disks with aluminium foil or similar with good IR reflectivity, and mount them on the axles. They will snap in place on the original locking pin:
- 
+
+<a></a>
+<img src="/images/37.jpg" height=128/>
+<img src="/images/38.jpg" height=128/>
 
 ## IMU, Arduino, Odroid
 
 Screw the IMU down on the IMU support plate, and mount the support plate in the center of the deck. Do the same for the Arduino Nano shield, and the Odroid computer mount:
 
+<a></a>
+<img src="/images/42.jpg" height=128/>
+<img src="/images/43.jpg" height=128/>
+<img src="/images/58.jpg" height=128/>
+
 ## Wiring and Cable Management
 Hook up the sensors to the Arduino's with the help of the [Wiring Diagram](/documentation/wiring_diagram.md).
 
+<a></a>
+<img src="/images/44.jpg" height=128/>
+<img src="/images/45.jpg" height=128/>
+<img src="/images/48.jpg" height=128/>
+<img src="/images/47.jpg" height=128/>
+
 It is important that all wires are clear of the moving parts of the vehicle. This applies mainly to the center driveshaft and the steering linkages.
 The DC-DC converter can be zip tied to the motor wires under the top deck:
+<a></a>
+<img src="/images/50.jpg" height=128/>
 
 The encoder cables and IMU cable can be secured between the IMU mounting plate and the deck brace:
 
 Tie the battery wires to the brace as well, so you are not pulling on the fragile wires when changing batteries!
-
+<a></a>
+<img src="/images/57.jpg" height=128/>
 
 RECEIVER
 The receiver can be wired to the Arduino with 3x 3 pin connectors:
+<a></a>
+<img src="/images/46.jpg" height=128/>
+
 Stick the receiver on top of the servo with double sided tape.
 ESC/SERVO POWER
 
 The Tamiya ESC provides 5v power over the 3 pin conector. We will use that to power the steering servo. This is to make sure the Arduino is not powered from two different sources (USB and ESC) and the servo doesn’t draw too much power from the Arduino. 
 We will remove the positive (+) pin from the 3 pin connectors and wire them together. You can use a knife or small screwdriver to lift the retention on the connector:
 
+<a></a>
+<img src="/images/53.jpg" height=128/>
+<img src="/images/54.jpg" height=128/>
+<img src="/images/55.jpg" height=128/>
 2 header pins can be used to make a jumper, or the wires can be soldered together directly. Make sure the wires can not create a short on any of the components!
 
 
-
+<a></a>
+<img src="/images/51.jpg" height=128/>
+<img src="/images/52.jpg" height=128/>
 
 
 
