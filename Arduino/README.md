@@ -1,5 +1,5 @@
 # Arduino
-The sensors on the vehicle are connected to 2 Arduino Nano's. The Arduinos then publish the sensor information over USB on the ROS network.
+The sensors on the vehicle are connected to 2 Arduino Nano's. The Arduinos publish the sensor information over USB on the ROS network. They also receive the steering and throttle commands from the ROS network.
 
 
 ## Arduino 1 - Vehicle sensors
