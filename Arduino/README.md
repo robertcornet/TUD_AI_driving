@@ -23,6 +23,14 @@ For the Throttle and Steering actions you can switch between two sources:
 ## Arduino 2 - Ultrasonic sensors
 The second Arduino is for the ultrasonic sensors. There are 2 files included that use the sensors in a different way.
 
+### radar_parallel.ino
+In this file, all sensors are triggered at the same time, every 40 ms:
+
+> every 40 ms:  
+> *publish latest sensor values on ROS network*    
+> *trigger all sensors simultaneously*
+
+
 ### radar_sequential.ino
 In this file, a sensor is triggered after the previous sensor is finished:
 
@@ -35,9 +43,4 @@ In this file, a sensor is triggered after the previous sensor is finished:
 > every 40 ms:  
 > *publish latest sensor values on ROS network*
   
-### radar_parallel.ino
-In this file, all sensors are triggered at the same time, every 40 ms:
 
-> every 40 ms:  
-> *publish latest sensor values on ROS network*    
-> *trigger all sensors simultaneously*
