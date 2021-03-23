@@ -8,7 +8,7 @@ The first Arduino is wired to all the vehicle specific sensors:
 - Inertial Measurement Unit (IMU)
 - Wheel speed sensors (4x)
 - 3 Channel RC receiver 
-- 
+
 Every 40 milliseconds the sensor information is published on the ROS network.
 
 This Arduino also controls the actuators:
