@@ -8,7 +8,17 @@ The first Arduino is wired to all the vehicle specific sensors:
 - Inertial Measurement Unit (IMU)
 - Wheel speed sensors (4x)
 - 3 Channel RC receiver 
-- Throttle/Steering out
+- 
+Every 40 milliseconds the sensor information is published on the ROS network.
+
+This Arduino also controls the actuators:
+- Steering out (servo)
+- Throttle out (esc)
+
+For the Throttle and Steering actions you can switch between two sources:
+- Actions from the RC receiver (manual control)
+- Actions from the ROS network (automated mode)
+
 
 ## Arduino 2 - Ultrasonic sensors
 The second Arduino is for the ultrasonic sensors. There are 2 files included that use the sensors in a different way.
