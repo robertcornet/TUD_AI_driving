@@ -1,21 +1,51 @@
 # The Simulator Explained
 
-The simulator can be used to develop and test your controllers. From the two inputs (Steering and Throttle), it will approximate how the car would behave.
+The simulator can be used to develop and test your controllers. From the two inputs (Steering and Throttle), it will approximate how the car would behave. The simulator is built in the [OpenAI GYM](https://gym.openai.com/) structure.
 
-## overview of functions
-The simulator is built in the [OpenAI GYM](https://gym.openai.com/) structure.
-The following are the main functions:
+The simulator is used in combination with the Reinforcement Learning programs from the [RLControlTheoreticGuarantee Github](https://github.com/RLControlTheoreticGuarantee/Guarantee_Learning_Control). 
 
-def _ _init_ _()
+Inluded on this page is a folder with an older copy of that github, including the vehicle simulator. 
+If you follow their installation guide, you can download the folder above and start training immediately.
+
+# Primary Simulator Functions
+The most important functions are:
+
+def _ _init_ _ ()
+Here all the parameters are set for the car and the environment. For example, here you would change the mass, the dimensions, or the motor characteristics of the car.
+
+def reset ()
+This function is called at the beginning of every training episode. It (re)sets the parameters for the episode. Here you can set how and where your vehicle starts in the environment. It can also be used to build a different enviroment for every episode.
+
+def step()
+This is the main simulation function. It takes two inputs (steering and throttle), and runs the simulation for one step in the environment.  
+It returns the new state of the car and environment, and a reward based on that state. 
 
 
 ## Using the simulator
-- Define your objective and what states you have observable in your experiment
-- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The simulator updates at 1000hz for stable integration. 
-- Make sure only the observable states are returned to your learning algorithm!
+- Define your objective and what states you can observe in your experiment. Make sure your controller does not rely on states that you can not observe in the real world!
+- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The vehicle simulation updates at 1000hz for stable integration. 
 - Define how you want an episode to start (*def reset()*) and when to end (*done*)
 - Construct your reward so it promotes the desired behaviour
+- 
+## states
+In the simulator you have access to the following vehicle states:
 
+- longitudinal velocity u
+- lateral velocity v
+- yaw rate r
+- longitudinal acceleration ax
+- lateral acceleration ay
+- wheel rotation velocities (4x)
+
+Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
+- detecting room/racetrack borders
+- single object detection (eg. determining distance to leading car)
+
+
+
+
+
+# Secondary Simulator functions
 
 ## SIMULATING LIDAR
 
@@ -32,14 +62,6 @@ This methond only measures the distance in the center of the FOV of the sensor.
 3, FOV:
 determining the distance between the car and an object, and triggering all sensors for which that object is in its FOV. 
 This is used to detect the leading car, in case of car following
-
-
-
-## Learning Algorithms
-The simulator is used in combination with the Reinforcement Learning programs from the [RLControlTheoreticGuarantee Github](https://github.com/RLControlTheoreticGuarantee/Guarantee_Learning_Control). 
-
-Inluded on this page is a folder with an older copy of that github, including the vehicle simulator. 
-If you follow their installation guide, you can download the folder above and start training immediately.
 
 ## Electronic Speed Control
 
@@ -78,38 +100,6 @@ Tamiya specifies a motor KV (RPM per volt) of 2222. Our measurements revealed a 
 |7.48|20935|2798|
 |7.79|21725|2789|
 
-
-
-
-
-## The vehicle simulator is a OpenAI environment written in Python. 
-
-# inputs/outputs
-The simulator has 2 inputs:
-- Steering
-- Throttle
-
-These are values in range -1,1 which represents 100% in either direction. 
-
-
-Based on these inputs, it will run 1 simulation step, lets say 0.1 seconds. It then returns the following:
-- new state
-- reward
-- done (true/false)
-
-## states
-In the simulator you have access to the following vehicle states:
-
-- longitudinal velocity u
-- lateral velocity v
-- yaw rate r
-- longitudinal acceleration ax
-- lateral acceleration ay
-- wheel rotation velocities (4x)
-
-Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
-- detecting room/racetrack borders
-- single object detection (eg. determining distance to leading car)
 
 
 
