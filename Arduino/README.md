@@ -12,18 +12,18 @@ The second Arduino is for the ultrasonic sensors. There are 2 files included tha
 ### radar_sequential.ino
 In this file the 8 sensors are read one after the other:
 
-> trigger sensor n
+> trigger sensor n 
 > if (response received or timeout expired (no response received)){
-    trigger sensor n+1
-}
+> trigger sensor n+1
+>}
 
 > every 40 ms:
-  publish latest sensor values on ROS network
+> publish latest sensor values on ROS network
   
 ### radar_parallel.ino
 
 > every 40 ms:
-  publish latest sensor values on ROS network
+> publish latest sensor values on ROS network
   
-  trigger all sensors simultaneously
-  wait for responses
+> trigger all sensors simultaneously
+> wait for responses
