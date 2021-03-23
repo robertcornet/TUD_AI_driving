@@ -1,8 +1,8 @@
 # How it works
-The provided ROS package has very few components. Our network has 3 'nodes', and we can send messages between these nodes.
-Node 1: This node is on Arduino 1, and sends messages over USB with the topic 'vehicle_state'. It also listens to the messages from Node 3 with the topic 'control_actions'.  
-Node 2: This node is on Arduino 2, and sends messages over USB with the topic 'radar_state'.  
-Node 3: This is the controller that runs on the computer. It listens to Nodes 1 and 2 about the 'vehicle_state' and 'radar_state'. Based on this information, it sends the 'control_actions' to Node 1.
+The provided ROS package has very few components. Our network has 3 'nodes', and we can send messages between these nodes.  
+- Node 1: This node is on Arduino 1, and sends messages over USB with the topic 'vehicle_state'. It also listens to the messages from Node 3 with the topic 'control_actions'.  
+- Node 2: This node is on Arduino 2, and sends messages over USB with the topic 'radar_state'.  
+- Node 3: This is the controller that runs on the computer. It listens to Nodes 1 and 2 about the 'vehicle_state' and 'radar_state'. Based on this information, it sends the 'control_actions' to Node 1.
 
 The Arduinos are set to publish a new message with a frequency of 25 hz (40ms interval).
 
