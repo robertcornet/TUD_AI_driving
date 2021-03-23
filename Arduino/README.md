@@ -19,7 +19,7 @@ In this file the 8 sensors are read one after the other:
 >}
 
 > every 40 ms:  
->     publish latest sensor values on ROS network
+>    publish latest sensor values on ROS network
   
 ### radar_parallel.ino
 
