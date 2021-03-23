@@ -15,7 +15,7 @@ In this file the 8 sensors are read one after the other:
 > trigger sensor n  
 >   
 > if (response received or timeout expired (no response received)){  
-> > trigger sensor n+1
+>      trigger sensor n+1
 >}
 
 > every 40 ms:  
