@@ -1,5 +1,20 @@
 # The Simulator Explained
 
+The simulator can be used to develop and test your controllers. From the two inputs (Steering and Throttle), it will approximate how the car would behave.
+
+## overview of functions
+The simulator is built in the [OpenAI GYM](https://gym.openai.com/) structure.
+The following are the main functions:
+
+def _ _init_ _()
+
+
+## Using the simulator
+- Define your objective and what states you have observable in your experiment
+- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The simulator updates at 1000hz for stable integration. 
+- Make sure only the observable states are returned to your learning algorithm!
+- Define how you want an episode to start (*def reset()*) and when to end (*done*)
+- Construct your reward so it promotes the desired behaviour
 
 
 ## SIMULATING LIDAR
@@ -96,12 +111,6 @@ Additionally, you can simulate what ultrasonic sensors would detect in different
 - detecting room/racetrack borders
 - single object detection (eg. determining distance to leading car)
 
-## Using the simulator
-- Define your objective and what states you have observable in your experiment
-- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The simulator updates at 1000hz for stable integration. 
-- Make sure only the observable states are returned to your learning algorithm!
-- Define how you want an episode to start (*def reset()*) and when to end (*done*)
-- Construct your reward so it promotes the desired behaviour
 
 
 ## See also
