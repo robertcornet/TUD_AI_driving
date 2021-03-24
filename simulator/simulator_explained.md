@@ -1,4 +1,4 @@
-# The Simulator Explained
+# Vehicle motion simulator
 
 The simulator can be used to develop and test your controllers. From the two inputs (Steering and Throttle), it will approximate how the car would behave. The simulator is built in the [OpenAI GYM](https://gym.openai.com/) structure.
 
@@ -6,6 +6,29 @@ The simulator is used in combination with the Reinforcement Learning programs fr
 
 Inluded on this page is a folder with an older copy of that github, including the vehicle simulator. 
 If you follow their installation guide, you can download the folder above and start training immediately.
+
+
+## Using the simulator
+- Define your objective and what states you can observe in your experiment. Make sure your controller does not rely on states that you can not observe in the real world!
+- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The vehicle simulation updates at 1000hz for stable integration. 
+- Define how you want an episode to start (*def reset()*) and when to end (*done*)
+- Construct your reward so it promotes the desired behaviour
+
+
+## states
+In the simulator you have access to the following vehicle states:
+
+- longitudinal velocity *u*
+- lateral velocity *v*
+- yaw rate *r*
+- longitudinal acceleration *a_x*
+- lateral acceleration *a_y*
+- wheel rotation velocities *Ω* (4x)
+
+Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
+- detecting room/racetrack borders
+- single object detection (eg. determining distance to leading car)
+
 
 # Primary Simulator Functions
 The most important functions are:
@@ -20,26 +43,6 @@ def step()
 This is the main simulation function. It takes two inputs (steering and throttle), and runs the simulation for one step in the environment.  
 It returns the new state of the car and environment, and a reward based on that state. 
 
-
-## Using the simulator
-- Define your objective and what states you can observe in your experiment. Make sure your controller does not rely on states that you can not observe in the real world!
-- Choose the time step for the agent (eg, 10 hz, 25hz, etc). The vehicle simulation updates at 1000hz for stable integration. 
-- Define how you want an episode to start (*def reset()*) and when to end (*done*)
-- Construct your reward so it promotes the desired behaviour
-- 
-## states
-In the simulator you have access to the following vehicle states:
-
-- longitudinal velocity u
-- lateral velocity v
-- yaw rate r
-- longitudinal acceleration ax
-- lateral acceleration ay
-- wheel rotation velocities (4x)
-
-Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
-- detecting room/racetrack borders
-- single object detection (eg. determining distance to leading car)
 
 
 
@@ -104,4 +107,4 @@ Tamiya specifies a motor KV (RPM per volt) of 2222. Our measurements revealed a 
 
 
 ## See also
-For more specific details on the specifics of the vehicle motion simulation, refer to Chapter 2 of [this Thesis](https://repository.tudelft.nl/islandora/object/uuid%3A7bedb60a-ced8-4fcf-97ca-80208861a413)
+For more details of the vehicle motion simulation, refer to Chapter 2 of [this Thesis](https://repository.tudelft.nl/islandora/object/uuid%3A7bedb60a-ced8-4fcf-97ca-80208861a413)
