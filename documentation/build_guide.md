@@ -21,7 +21,7 @@ This document will guide you step by step through the build process of the vehic
 Start by building the TT-02 chassis with the help of the included instructions. Use the included foam (front)bumper in the rear, and the  optional tt-01 bumper in the front. Your vehicle should now look similar to this:
 
 <a></a>
-<img src="/images/01.jpg" height=128/>
+<img src="/images/01.jpg" height=200/>
 <img src="/images/02.jpg" height=128/>
 
 
@@ -29,7 +29,7 @@ Start by building the TT-02 chassis with the help of the included instructions. 
 The power from the battery is split to the Vehicle Electronic Speed Controller (ESC) and the DC step down to power on-board computer. We will also add a third connector so we can monitor the battery voltage.
 
 <a></a>
-<img src="/images/04.jpg" height=128/>
+<img src="/images/04.jpg" height=256/>
 <img src="/images/05.jpg" height=128/>
 <img src="/images/07.jpg" height=128/>
 <img src="/images/09.jpg" height=128/>
