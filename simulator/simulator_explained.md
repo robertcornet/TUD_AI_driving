@@ -15,22 +15,22 @@ If you follow their installation guide, you can download the folder above and st
 - Construct your reward so it promotes the desired behaviour
 
 
-## states
+## States
 In the simulator you have access to the following vehicle states:
 
 - longitudinal velocity *u*
 - lateral velocity *v*
 - yaw rate *r*
-- longitudinal acceleration *a_x*
+- longitudinal acceleration *a<sub>x</sub>*
 - lateral acceleration *a<sub>y</sub>*
 - wheel rotation velocities *Ω* (4x)
 
 Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
-- detecting room/racetrack borders
+- detecting room/racetrack borders (lidar)
 - single object detection (eg. determining distance to leading car)
 
 
-# Primary Simulator Functions
+## Primary Simulator Functions
 The most important functions are:
 
 def _ _init_ _ ()
@@ -48,7 +48,7 @@ It returns the new state of the car and environment, and a reward based on that 
 
 
 
-# Secondary Simulator functions
+## Secondary Simulator functions
 
 ## SIMULATING LIDAR
 
