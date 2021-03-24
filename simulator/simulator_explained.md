@@ -33,46 +33,23 @@ Additionally, you can simulate what ultrasonic sensors would detect in different
 ## Primary Simulator Functions
 The most important functions are:
 
-*def* \_\_init\_\_()
-Here all the parameters are set for the car and the environment. For example, here you would change the mass, the dimensions, or the motor characteristics of the car.
+*def* \_\_init\_\_()\
+Here all the parameters are set for the car and the environment. For example, here you would change the mass, the dimensions, or the motor characteristics of the car. This is also were you set if your car is 4wd or rwd, and how large the time steps of the simulation will be.
 
-def reset ()
+*def* reset()\
 This function is called at the beginning of every training episode. It (re)sets the parameters for the episode. Here you can set how and where your vehicle starts in the environment. It can also be used to build a different enviroment for every episode.
 
-def step()
+*def* step()\
 This is the main simulation function. It takes two inputs (steering and throttle), and runs the simulation for one step in the environment.  
 It returns the new state of the car and environment, and a reward based on that state. 
 
-
-
-
-
-
 ## Secondary Simulator functions
 
-## SIMULATING LIDAR
-
-The simulator supports simulating lidar behaviour in a few different ways.
-
-1,2: Ray Tracing
-tracing each ray and determining the distance to the nearest wall-line segment.
-A wall-line can be:
-1. left/right wall of the track.
-2. the walls of a room
-
-This methond only measures the distance in the center of the FOV of the sensor.
-
-3, FOV:
-determining the distance between the car and an object, and triggering all sensors for which that object is in its FOV. 
-This is used to detect the leading car, in case of car following
-
-## Electronic Speed Control
-
-The ESC puts out a voltage to the motor depending on the input signal. 
-The input is a PWM signal with pulses between 1000us (full throttle) and 2000us (full braking).
-This behaviour is modelled in the simulator as a voltage multiplier; the ESC acts as a multiplier in range [0-1] between the battery voltage and motor.
-For the TBLE-02S ESC included in the Tamiya kit, the following values were measured:
-
+### Motor and ESC
+*def* ESC()\
+This function simulates the behaviour of the electronic speed controller (ESC) included in the Tamiya kit (TBLE-02S).\
+The ESC puts out a voltage to the motor depending on the input signal. The input is a PWM signal with pulses between 1000us (full throttle) and 2000us (full braking). This behaviour is modelled in the simulator as a voltage multiplier; the ESC acts as a multiplier in range [0-1] between the battery voltage and motor.\
+The folling values were measured by experiment:
 
 |Throttle %|Voltage Mult.|
 |---|---|
@@ -90,8 +67,11 @@ For the TBLE-02S ESC included in the Tamiya kit, the following values were measu
 |90|1|
 |100|1|
 
-## The Motor
-Tamiya specifies a motor KV (RPM per volt) of 2222. Our measurements revealed a KV closer to 2775:
+*def* motor()\
+This function calculates the torque that the motor will produce, given the voltage from the ESC and its rotational speed.
+
+Tamiya specifies a motor RPM per volt (KV) of 2222, and a stall torque per volt (TV) of 0.0042 Nm. Our measurements revealed a KV closer to 2775, and a TV of 0.0065 Nm.
+
 |Voltage|Motor RPM|KV|
 |---|---|---|
 |3.45|9322|2702|
@@ -102,6 +82,24 @@ Tamiya specifies a motor KV (RPM per volt) of 2222. Our measurements revealed a 
 |7.30|20540|2813|
 |7.48|20935|2798|
 |7.79|21725|2789|
+
+### LIDAR
+
+The simulator supports simulating lidar behaviour in a few different ways.
+
+1,2: Ray Tracing
+tracing each ray and determining the distance to the nearest wall-line segment.
+A wall-line can be:
+1. left/right wall of the track.
+2. the walls of a room
+
+This methond only measures the distance in the center of the FOV of the sensor.
+
+3, FOV:
+determining the distance between the car and an object, and triggering all sensors for which that object is in its FOV. 
+This is used to detect the leading car, in case of car following
+
+### Leading car
 
 
 
