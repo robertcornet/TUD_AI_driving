@@ -44,6 +44,8 @@ This is the main simulation function. It takes two inputs (steering and throttle
 It returns the new state of the car and environment, and a reward based on that state. 
 
 ## Secondary Simulator functions
+*def* render()
+
 
 ### Motor and ESC
 *def* ESC()\
@@ -122,3 +124,20 @@ This function tries to simulate how an ultrasonic sensor would see the leading c
 
 ## See also
 For more details of the vehicle motion simulation, refer to Chapter 2 of [this Thesis](https://repository.tudelft.nl/islandora/object/uuid%3A7bedb60a-ced8-4fcf-97ca-80208861a413)
+
+# Learning Algorithms
+With the included software, you can train your AI using Soft Actor Critic (SAC) and Lyapunov-based Soft Actor Critic (LSAC). Only the most basic settings will be discussed here.
+
+variant.py\
+Here you choose your environment, learning algorithm and training times. You can also set if you want to render the environment. 
+
+main_for_sac.py\
+This is the function you will run every time you want to start training or evaluating.
+
+/LSAC/LSAC_V1.py
+Here you can change the dimensions of the neural networks. Change the following lines:
+- lines 305/306
+- lines 340/345
+- lines 351/356
+
+
