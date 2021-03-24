@@ -165,7 +165,7 @@ You can add aditional sensors to the car if you like. Here we will show how you 
 
 We will be using 8 HC-SR04 ultrasonic sensors.
 
-Snap the sensors in its mounting bracket:
+Snap the sensors in its mounting bracket. Carefully bend the 4 pins 90 degrees so they point backwards.
 
 Remove the screws from the IMU mounting plate, add the 'tower' for the sensors. Also, add the support for the second Arduino:
 
