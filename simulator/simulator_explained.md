@@ -83,26 +83,35 @@ Tamiya specifies a motor RPM per volt (KV) of 2222, and a stall torque per volt 
 |7.48|20935|2798|
 |7.79|21725|2789|
 
+### Tires
+TIRE_FLUCTUATION is an array of 4 values. It can be used to add a little noise on the tire behaviour of the individual wheels, that changes from episode to episode.
+
 ### LIDAR
 
 The simulator supports simulating lidar behaviour in a few different ways.
 
-1,2: Ray Tracing
-tracing each ray and determining the distance to the nearest wall-line segment.
+1,2: Ray Tracing\
+tracing each ray and determining the distance to the nearest wall-line segment.\
 A wall-line can be:
-1. left/right wall of the track.
-2. the walls of a room
-
+1. left/right wall of the track.\
+2. the walls of a room\
 This methond only measures the distance in the center of the FOV of the sensor.
 
-3, FOV:
-determining the distance between the car and an object, and triggering all sensors for which that object is in its FOV. 
-This is used to detect the leading car, in case of car following
 
-### Leading car
+## Expirimental
 
 
+### Car following, leading car
+These functions are for running a leading car. You can use it to train your AI to follow a car using lidar or ultrasonic sensing.
 
+*def* initialize_leading_car()\
+Initializes the leading car in a random position in front of your own car.
+
+*def* run_leading_car()\
+Chooses the actions for the leading car. Limits for the speed, acceleration and yaw rate of the leading car are set in this function.
+
+*def* get_radar_state_zones()\
+This function tries to simulate how an ultrasonic sensor would see the leading car in practice. If the leading car is within the FOV of a sensor, it returns the distance between the two cars.  
 
 ## See also
 For more details of the vehicle motion simulation, refer to Chapter 2 of [this Thesis](https://repository.tudelft.nl/islandora/object/uuid%3A7bedb60a-ced8-4fcf-97ca-80208861a413)
