@@ -90,8 +90,8 @@ Use the following lengths or more:
 Remove the wheels and the standard wheel carriers. Use hot glue to secure the sensor mounts in the orientation as shown, with the mounting plate facing down and away from the center! It may be necessary to trim some of the excess material on the wheel hubs.
 
 <a></a>
-<img src="/images/31.jpg" height=200/>
 <img src="/images/32.jpg" height=200/>
+<img src="/images/31.jpg" height=200/>
 
 
 Bolt the sensors to the wheel hubs with M2x6 bolts and zip tie the wires to the linkages for some strain relief from the solder connections:
