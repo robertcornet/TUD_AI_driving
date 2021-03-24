@@ -102,8 +102,8 @@ Bolt the sensors to the wheel hubs with M2x6 bolts and zip tie the wires to the 
 Cover the encoder disks with aluminium foil or similar with good IR reflectivity, and mount them on the axles. They will snap in place on the original locking pin:
 
 <a></a>
-<img src="/images/37.jpg" height=128/>
-<img src="/images/38.jpg" height=128/>
+<img src="/images/75.jpg" height=128/>
+<img src="/images/76.jpg" height=128/>
 
 ## IMU, Arduino, Odroid
 
@@ -125,17 +125,20 @@ Hook up the sensors to the Arduino's with the help of the [Wiring Diagram](/docu
 
 It is important that all wires are clear of the moving parts of the vehicle. This applies mainly to the center driveshaft and the steering linkages.
 The DC-DC converter can be zip tied to the motor wires under the top deck:
+
 <a></a>
 <img src="/images/50.jpg" height=128/>
 
 The encoder cables and IMU cable can be secured between the IMU mounting plate and the deck brace:
 
 Tie the battery wires to the brace as well, so you are not pulling on the fragile wires when changing batteries!
+
 <a></a>
 <img src="/images/57.jpg" height=128/>
 
 RECEIVER
 The receiver can be wired to the Arduino with 3x 3 pin connectors:
+
 <a></a>
 <img src="/images/46.jpg" height=128/>
 
@@ -155,6 +158,35 @@ We will remove the positive (+) pin from the 3 pin connectors and wire them toge
 <a></a>
 <img src="/images/51.jpg" height=128/>
 <img src="/images/52.jpg" height=128/>
+
+## Ultrasonic Sensors
+
+You can add aditional sensors to the car if you like. Here we will show how you can add an array of ultrasonic sensors to the vehicle.
+
+We will be using 8 HC-SR04 ultrasonic sensors.
+
+Snap the sensors in its mounting bracket:
+
+Remove the screws from the IMU mounting plate, add the 'tower' for the sensors. Also, add the support for the second Arduino:
+
+<a></a>
+<img src="/images/66.jpg" height=128/>
+
+The mounting brackets with the sensors can be screwed on the tower:
+
+<a></a>
+<img src="/images/67.jpg" height=128/>
+<img src="/images/68.jpg" height=128/>
+<img src="/images/69.jpg" height=128/>
+
+The wires can be guided down trough the holes in the bottom, and to the Arduino
+
+<a></a>
+<img src="/images/70.jpg" height=128/>
+<img src="/images/71.jpg" height=128/>
+<img src="/images/72.jpg" height=128/>
+
+
 
 
 
