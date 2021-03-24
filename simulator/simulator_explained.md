@@ -134,7 +134,7 @@ Here you choose your environment, learning algorithm and training times. You can
 main_for_sac.py\
 This is the function you will run every time you want to start training or evaluating.
 
-/LSAC/LSAC_V1.py
+/LSAC/LSAC_V1.py\
 Here you can change the dimensions of the neural networks. Change the following lines:
 - lines 305/306
 - lines 340/345
