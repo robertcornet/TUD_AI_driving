@@ -9,13 +9,16 @@ You will need a Micro SD card reader to connect the memory and its adapter to yo
 Alternatively, you can buy a memory module with the OS already installed.
 
 ## WiFi Drivers
-Many USB WiFi dongles are not directly supported on all Linux kernels. If your WiFi module is not working, you likely need to install your drivers manually. For the WiFi module in the [Bill of Materials](https://github.com/robertcornet/TUD_AI_driving/blob/main/documentation/bill_of_materials.md), use these [drivers](https://github.com/lwfinger/rtl8723bu).
+Many USB WiFi dongles are not directly supported on all Linux kernels. If your WiFi module is not working, you likely need to install your drivers manually. For the WiFi module in the [Bill of Materials](/documentation/bill_of_materials.md), use these [drivers](https://github.com/lwfinger/rtl8723bu).
 
 ## Robot Operating System (ROS)
 Install the correct ROS distribution for your Linux version. [ROS](https://www.ros.org/) is used to communicate between your Arduinos and your computer. If you are unfamiliar with ROS, follow their excellent [Beginner Level turtorials](http://wiki.ros.org/ROS/Tutorials)
 
-# how to copy complete workspace?
-
+You can install the [package 'car'](/ros) and modify from there. 
+The package is very minimal; it contains:
+- Launch file for USB serial communnication
+- custom messages for the vehicle state, radar state, and control actions
+- a controller script that runs a Tensorflow session
 
 
 ## TensorFlow / TensorFlow Lite
@@ -24,7 +27,7 @@ Installing the full version of TensorFlow on an ARM system such as the Odroid ca
 [This guide](https://www.jianshu.com/p/375cacb4c0f2) will help you to install a [precompiled ARM version](https://github.com/lhelontra/tensorflow-on-arm/releases) of TensorFlow on your Odroid XU-4.
 
 ## Remote Access
-You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Keep in mind that remote access is slower than working on the computer directly; connect to the Odroid over USB/HDMI directly for longer sessions.
+You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Keep in mind that remote access is slower than working on the computer directly; connect to the Odroid over USB/HDMI directly for longer sessions, or use SSH.
 
 ## Arduino IDE
 
