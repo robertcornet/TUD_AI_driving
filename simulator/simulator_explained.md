@@ -23,7 +23,7 @@ In the simulator you have access to the following vehicle states:
 - yaw rate *r*
 - longitudinal acceleration *a<sub>x</sub>*
 - lateral acceleration *a<sub>y</sub>*
-- wheel rotation velocities *Ω* (4x)
+- wheel rotation velocities *Ω* 
 
 Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
 - detecting room/racetrack borders (lidar)
@@ -87,19 +87,26 @@ Tamiya specifies a motor RPM per volt (KV) of 2222, and a stall torque per volt 
 TIRE_FLUCTUATION is an array of 4 values. It can be used to add a little noise on the tire behaviour of the individual wheels, that changes from episode to episode.
 
 ### LIDAR
+*def* lidar_get_state()\
+Returns the distance to the walls at the angles set in SENSOR_ARRAY (*def* \_\_init\_\_()).\
+*def* lidar_get_state() calls *def* lidar_rayDist(). There the distances can be checked in two different ways:
+1. To the walls of a room (self.track__center)
+2. To the 'walls' of a race track (self.track_left, self.track_right)\
+Both options are quite different, make sure to use the right one!
 
-The simulator supports simulating lidar behaviour in a few different ways.
+### Room generation
+*def* gen_room()\
+Very simple function that generates a square room given a length and width in meters. It returns the x,y-coordinates of the corners.
 
-1,2: Ray Tracing\
-tracing each ray and determining the distance to the nearest wall-line segment.\
-A wall-line can be:
-1. left/right wall of the track.\
-2. the walls of a room\
-This methond only measures the distance in the center of the FOV of the sensor.
+### Track generation
+*def* track_generator()\
+Generates a random track. It is adapted from the methods discussed [here](http://blog.meltinglogic.com/2013/12/how-to-generate-procedural-racetracks/)
+
+*def* track_check_valid()\
+Checks if the generated random track is 'valid'. If a track has 'kinks' in the corners, the track will be 'invalid'. 
 
 
 ## Expirimental
-
 
 ### Car following, leading car
 These functions are for running a leading car. You can use it to train your AI to follow a car using lidar or ultrasonic sensing.
