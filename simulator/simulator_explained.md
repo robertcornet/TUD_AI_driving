@@ -33,7 +33,7 @@ Additionally, you can simulate what ultrasonic sensors would detect in different
 ## Primary Simulator Functions
 The most important functions are:
 
-def _ _init_ _ ()
+*def* \_\_init\_\_()
 Here all the parameters are set for the car and the environment. For example, here you would change the mass, the dimensions, or the motor characteristics of the car.
 
 def reset ()
