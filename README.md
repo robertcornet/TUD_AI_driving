@@ -1,5 +1,5 @@
 # TU Delft AI driving platform
-This GitHub contains all the information for the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
+This page contains all the information for the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
 <img src="/images/TUDAI1.jpg" height=256>
 
