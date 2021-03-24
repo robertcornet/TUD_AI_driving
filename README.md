@@ -4,7 +4,8 @@ This GitHub contains all the information for the TU Delft AI driving platform. I
 <img src="/images/TUDAI1.jpg" height=256>
 
 ## Who is it for?
-This platform is designed for very dynamic driving tasks. It can show the unstable behaviour of cars that are driven on the limit of friction. 
+This platform is designed for very dynamic driving tasks, such as drifting. It can show the unstable behaviour of cars that are driven on the limit of friction. 
+
 If you are into vehicle research that goes beyond navigation tasks and focusses on dynamic vehicle behaviour and vehicle stability, this platform can be for you. It offers the dynamics of the large research platforms on a small scale that requires little space. The onboard accelerometers, gyros and individual wheel speed sensors provide a good basis for developing impressive vehicle controllers.
 
 ## What does it offer?
