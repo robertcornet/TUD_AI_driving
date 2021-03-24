@@ -22,7 +22,7 @@ In the simulator you have access to the following vehicle states:
 - lateral velocity *v*
 - yaw rate *r*
 - longitudinal acceleration *a_x*
-- lateral acceleration *a_y*
+- lateral acceleration *a<sub>y</sub>*
 - wheel rotation velocities *Ω* (4x)
 
 Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
