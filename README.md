@@ -34,3 +34,4 @@ If you want some extra help, check out the [Operation Manual](/documentation/ope
 - Better Inertial Navigation
 - Camera Vision / Lidar module
 - Standstill vehicle rotating bug
+- Large steering angle mod
