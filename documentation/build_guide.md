@@ -152,6 +152,7 @@ We will remove the positive (+) pin from the 3 pin connectors and wire them toge
 <img src="/images/53.jpg" height=128/>
 <img src="/images/54.jpg" height=128/>
 <img src="/images/55.jpg" height=128/>
+
 2 header pins can be used to make a jumper, or the wires can be soldered together directly. Make sure the wires can not create a short on any of the components!
 
 
