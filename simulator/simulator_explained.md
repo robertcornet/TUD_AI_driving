@@ -11,7 +11,7 @@ If you follow their installation guide, you can download the folder above and st
 ## Using the simulator
 - Define your objective and what states you can observe in your experiment. Make sure your controller does not rely on states that you can not observe in the real world!
 - Choose the time step for the agent (eg, 10 hz, 25hz, etc). The vehicle simulation updates at 1000hz for stable integration. 
-- Define how you want an episode to start (*def reset()*) and when to end (*done*)
+- Define how you want an episode to start (*def* reset*) and when to end (*done*)
 - Construct your reward so it promotes the desired behaviour
 
 
