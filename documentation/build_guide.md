@@ -24,7 +24,7 @@ Start by building the TT-02 chassis with the help of the included instructions. 
 Connect the motor:\
 blue - green\
 yellow - yellow\
-orange - \[-\]\
+orange - \[-\]  
 
 
 Your vehicle should now look similar to this:
@@ -79,32 +79,33 @@ Mount the deck brace to the underside of the front and rear deck plates, and mou
 <img src="/images/25.jpg" height=200/>
 <img src="/images/27.jpg" height=200/>
 
-# Part 4, Electronics
+# Part 4: Electronics
 ## Wheels speed sensors and encoder disks
  
 Cut the connector of 1 end of the 3-pin wires and solder them to the IR reflectance sensors (4x). 
 Use the following lengths or more:
-2x 50cm (rear wheels)
-2x 30 cm (front wheels)
+
+- 2x 50cm (rear wheels)  
+- 2x 30 cm (front wheels)
 
 <a></a>
 <img src="/images/33.jpg" height=200/>
 <img src="/images/34.jpg" height=200/>
 <img src="/images/35.jpg" height=200/>
 
-Remove the wheels and the standard wheel carriers. Use hot glue to secure the sensor mounts in the orientation as shown, with the mounting plate facing down and away from the center! It may be necessary to trim some of the excess material on the wheel hubs.
+Remove the wheels and the standard wheel carriers. Use hot glue to secure the sensor mounts in the orientation as shown, with the mounting plate facing **down** and **away** from the center. It may be necessary to trim some of the excess material on the wheel hubs.
 
 <a></a>
 <img src="/images/32.jpg" height=200/>
 <img src="/images/31.jpg" height=200/>
 
 
-Bolt the sensors to the wheel hubs with M2x6 bolts and zip tie the wires to the linkages for some strain relief from the solder connections:
+Bolt the sensors to the wheel hubs with M2x6 bolts and zip tie the wires to the linkages for some strain relief for the solder connections:
 
 <a></a>
 <img src="/images/36.jpg" height=200/>
 
-Cover the encoder disks with aluminium foil or similar with good IR reflectivity, and mount them on the axles. They will snap in place on the original locking pin:
+Cover the encoder disks with aluminium foil or similar with good IR reflectivity, and mount them on the axles. They will clamp in place on the original locking pin:
 
 <a></a>
 <img src="/images/75.jpg" height=200/>
@@ -134,9 +135,7 @@ The DC-DC converter can be zip tied to the motor wires under the top deck:
 <a></a>
 <img src="/images/50.jpg" height=200/>
 
-The encoder cables and IMU cable can be secured between the IMU mounting plate and the deck brace:
-
-Tie the battery wires to the brace as well, so you are not pulling on the fragile wires when changing batteries!
+The encoder cables and IMU cables can be secured between the IMU mounting plate and the deck brace. Tie the battery wires to the brace as well, so you are not pulling on the fragile wires when changing batteries!
 
 <a></a>
 <img src="/images/57.jpg" height=200/>
@@ -148,10 +147,11 @@ The receiver can be wired to the Arduino with 3x 3 pin connectors:
 <img src="/images/46.jpg" height=200/>
 
 Stick the receiver on top of the servo with double sided tape.
-ESC/SERVO POWER
+
+## ESC/SERVO POWER
 
 The Tamiya ESC provides 5v power over the 3 pin conector. We will use that to power the steering servo. This is to make sure the Arduino is not powered from two different sources (USB and ESC) and the servo doesn’t draw too much power from the Arduino. 
-We will remove the positive (+) pin from the 3 pin connectors and wire them together. You can use a knife or small screwdriver to lift the retention on the connector:
+We will remove the positive (+) pin from the 3 pin connectors and wire them together.
 
 <a></a>
 <img src="/images/53.jpg" height=200/>
@@ -160,16 +160,13 @@ We will remove the positive (+) pin from the 3 pin connectors and wire them toge
 
 2 header pins can be used to make a jumper, or the wires can be soldered together directly. Make sure the wires can not create a short on any of the components!
 
-
 <a></a>
 <img src="/images/51.jpg" height=200/>
 <img src="/images/52.jpg" height=200/>
 
 ## Ultrasonic Sensors
 
-You can add aditional sensors to the car if you like. Here we will show how you can add an array of ultrasonic sensors to the vehicle.
-
-We will be using 8 HC-SR04 ultrasonic sensors.
+You can add aditional sensors to the car if you like. Here we will show how you can add an array of ultrasonic sensors to the vehicle. We will be using 8 HC-SR04 ultrasonic sensors.
 
 Snap the sensors in its mounting bracket. Carefully bend the 4 pins 90 degrees so they point backwards.
 
@@ -192,7 +189,7 @@ The wires can be guided down trough the holes in the bottom, and to the Arduino
 <img src="/images/71.jpg" height=200/>
 <img src="/images/72.jpg" height=200/>
 
-## Finished!
+# Finished!
 
 Congratulations, you can now start experimenting! Install the required [Software](/documentation/software_setup.md) to get the vehicle running.
 
