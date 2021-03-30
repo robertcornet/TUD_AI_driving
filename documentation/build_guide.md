@@ -187,6 +187,18 @@ The wires can be guided down trough the holes in the bottom, and to the Arduino
 <img src="/images/71.jpg" height=200/>
 <img src="/images/72.jpg" height=200/>
 
+## Finished!
+
+Congratulations, you can now start experimenting! Install the required [Software](/documentation/software_setup.md) to get the vehicle running.
+
+<a></a>
+<img src="/images/106.jpg" height=300>
+
+<a></a>
+<img src="/images/101.jpg" height=200>
+<img src="/images/102.jpg" height=200>
+<img src="/images/100.jpg" height=200>
+<img src="/images/103.jpg" height=200>
 
 
 
