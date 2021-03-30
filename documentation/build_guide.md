@@ -18,7 +18,15 @@ This document will guide you through the build process of the vehicle. Get your 
 - Small zip ties
 
 # Part 1, the chassis
-Start by building the TT-02 chassis with the help of the included instructions. Use the included foam (front)bumper in the rear, and the  optional tt-01 bumper in the front. Your vehicle should now look similar to this:
+Start by building the TT-02 chassis with the help of the included instructions. Use the included foam bumper (black) in the rear, and the  optional TT-01 bumper (blue) in the front. 
+
+Connect the motor:
+blue - green
+yellow - yellow
+orange - \[-\]
+
+
+Your vehicle should now look similar to this:
 
 <a></a>
 <img src="/images/01.jpg" height=200/>
