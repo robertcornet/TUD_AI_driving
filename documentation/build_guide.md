@@ -1,7 +1,7 @@
 # Build Guide
 
 This document will guide you through the build process of the vehicle. Get your tools and materials ready and build along!
-If you have questions about the choice of components, refer to [here](/documentation/components_explained.md)
+If you have questions about the choice of components, refer to [here](/documentation/components_explained.md).
 
 ### Required skills
 - Soldering servo wires, header pins and battery connectors
