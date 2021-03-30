@@ -1,16 +1,17 @@
 # TU Delft AI driving platform
-This page contains all the information for the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
+Here you can learn everything about the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
 <img src="/images/TUDAI1.jpg" height=256>
 
 ## Who is it for?
-This platform is designed for very dynamic driving tasks, such as drifting. It can show the unstable behaviour of cars that are driven on the limit of friction. 
+This car is designed for very dynamic driving tasks, such as drifting. It can show the unstable behaviour of cars that are driven on the limit of friction. 
 
-If you are into vehicle research that goes beyond navigation tasks and focusses on dynamic vehicle behaviour and vehicle stability, this platform can be for you. It offers the dynamics of the large research platforms on a small scale that requires little space. The onboard accelerometers, gyros and individual wheel speed sensors provide a good basis for developing impressive vehicle controllers.
+If you are into vehicle research that goes beyond navigation tasks and focusses on dynamic vehicle behaviour and vehicle stability, this platform can be for you. It offers the dynamics of large research platforms on a small scale that requires little space. The onboard accelerometers, gyros and individual wheel speed sensors provide a good basis for developing impressive vehicle controllers.
 
 ## What does it offer?
-- Low-cost dynamic driving with access to the relevant vehicle states. (wheel speeds, accelerations, yaw rate)
-- Small scale suitable for compact spaces
+- Low-cost dynamic driving
+- Small scale for indoor use
+- Access to the relevant vehicle states. (wheel speeds, accelerations, yaw rate)
 - Onboard TensorFlow integration for AI development
 - Modular platform for easy addition of your own sensors
 
@@ -31,7 +32,8 @@ If you want some extra help, check out the [Operation Manual](/documentation/ope
 
 
 ## To Do
-- Better Inertial Navigation
-- Camera Vision / Lidar module
-- Standstill vehicle rotating bug
-- Large steering angle mod
+- Large steering angle mod. _For rear wheel drive drifting, a large steering angle is needed to balance the vehicle in the drift._
+- Camera Vision / Lidar module. _The usability of the Ultrasonic sensors is limited._
+- Better Inertial Navigation. _Robust algorithm to determine vehicle orientation in space._
+- Standstill vehicle rotating bug. _In the simulator, if the vehicle is stationary, it can rotate slowly by steering. This is due to how the slip angles are defined._
+
