@@ -48,15 +48,10 @@ Solder the wires in parallel and pay attention to the polarity of the components
 <img src="/images/09.jpg" height=200/>
  
  
+Solder the barrel connector to the output of the DC-DC step down converter. **Make sure the output is set to 5 volts!**
 
 
-
-
-Solder the barrel connector to the output of the DC-DC step down converter. Make sure the output is set to 5 volts!
-
-
-# Part 3, The Frame
-
+# Part 3: The Mounting Plate
 The holes in the 3d printed parts are not threaded yet. It is recommended to run a tap trough the holes first. The holes are sized for M3x0.5 threads.
 
 <a></a>
