@@ -11,7 +11,7 @@ Here you can learn everything about the TU Delft AI driving platform. It is desi
 <img src="/images/103.jpg" height=200>
 
 ## Who is it for?
-This car is designed for very dynamic driving tasks, such as drifting. It can show the unstable behaviour of cars that are driven on the limit of friction. 
+This car is designed for very dynamic driving tasks, such as drifting. It can show the unstable behaviour of cars that are pushed to the limit of friction, at low speed and in small spaces. 
 
 If you are into vehicle research that goes beyond navigation tasks and focusses on dynamic vehicle behaviour and vehicle stability, this platform can be for you. It offers the dynamics of large research platforms on a small scale that requires little space. The onboard accelerometers, gyros and individual wheel speed sensors provide a good basis for developing impressive vehicle controllers.
 
