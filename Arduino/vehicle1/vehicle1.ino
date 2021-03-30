@@ -358,13 +358,13 @@ void loop() {
   dt = (t2-t1)/1000000.0;   
   t1 = t2; // Update t1 for next iteration
 
-  if (sqrt(a_x*a_x+a_y*a_y+a_z*a_z)<1020) {
+  if (sqrt(a_x*a_x+a_y*a_y+a_z*a_z)<1025) {
     STATIC_COUNT +=1;
   }else{
     STATIC_COUNT = 0;      
   }
       
-  if (STATIC_COUNT > 25){
+  if (STATIC_COUNT > 4){
     u = 0;
     v = 0;
     accel_free = 1;
@@ -373,8 +373,8 @@ void loop() {
   }
 
   if (accel_free ==1){
-    alpha_x = 0.99*(alpha_x+(g_x_prev+0.5*(g_x-g_x_prev))*dt)+0.01*(atan2(a_y,a_z)*RAD2DEG); //angles in deg
-    alpha_y = 0.99*(alpha_y+(g_y_prev+0.5*(g_y-g_y_prev))*dt)+0.01*(-atan2(a_x,a_z)*RAD2DEG);
+    alpha_x = 0.95*(alpha_x+(g_x_prev+0.5*(g_x-g_x_prev))*dt)+0.05*(atan2(a_y,a_z)*RAD2DEG); //angles in deg
+    alpha_y = 0.95*(alpha_y+(g_y_prev+0.5*(g_y-g_y_prev))*dt)+0.05*(-atan2(a_x,a_z)*RAD2DEG);
   }else{
     alpha_x += (g_x_prev+0.5*(g_x-g_x_prev))*dt;
     alpha_y += (g_y_prev+0.5*(g_y-g_y_prev))*dt;
