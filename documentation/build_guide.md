@@ -20,10 +20,10 @@ This document will guide you through the build process of the vehicle. Get your 
 # Part 1, the chassis
 Start by building the TT-02 chassis with the help of the included instructions. Use the included foam bumper (black) in the rear, and the  optional TT-01 bumper (blue) in the front. 
 
-Connect the motor:
-blue - green
-yellow - yellow
-orange - \[-\]
+Connect the motor:\
+blue - green\
+yellow - yellow\
+orange - \[-\]\
 
 
 Your vehicle should now look similar to this:
