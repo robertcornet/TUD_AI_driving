@@ -1,7 +1,14 @@
 # TU Delft AI driving platform
 Here you can learn everything about the TU Delft AI driving platform. It is designed for the department of Cognitive Robotics (CoR) at the faculty of 3ME at the TU Delft.
 
-<img src="/images/TUDAI1.jpg" height=256>
+<a></a>
+<img src="/images/106.jpg" height=512>
+
+<a></a>
+<img src="/images/101.jpg" height=256>
+<img src="/images/102.jpg" height=256>
+<img src="/images/100.jpg" height=256>
+<img src="/images/103.jpg" height=256>
 
 ## Who is it for?
 This car is designed for very dynamic driving tasks, such as drifting. It can show the unstable behaviour of cars that are driven on the limit of friction. 
