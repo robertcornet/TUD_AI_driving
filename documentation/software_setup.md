@@ -29,7 +29,7 @@ Installing the full version of TensorFlow on an ARM system such as the Odroid ca
 ## Remote Access
 You can access your Odroid remotely over the internet. If you want to cast the entire screen of the Odroid, you can use [NoMachine](https://www.nomachine.com/). Keep in mind that remote access is slower than working on the computer directly; connect to the Odroid over USB/HDMI directly for longer sessions, or use SSH.
 
-## Arduino IDE
+## Arduino
 
 ### IDE
 Install the [Arduino IDE](https://www.arduino.cc/en/software/) to write code to the Arduinos.
@@ -62,4 +62,6 @@ Creating message.h files for Arduino:
 2. Delete ros_lib folder if you want to re-generate
 > rosrun rosserial_arduino make_libraries.py 
 
+### Code
+The code for the Arduinos can be found [here](/Arduino)
 
