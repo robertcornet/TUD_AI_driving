@@ -20,10 +20,10 @@ You can now start any of the ROS programs in your workspace.
 
 # Switching between manual and automated driving modes
 
-When the transmitter is turned on, the vehicle is in "manual mode". This means that the control signals from the transmitter are directly sent to the servo and speed controller. The vehicle thus can be driven manually.
+When the transmitter is turned on, the vehicle is in "manual mode". This means that the control signals from the transmitter are directly sent to the servo and speed controller. You are in control of the car.
 
-When the "CH3" button is pressed on the transmitter [transmitter panel, top left], the arduinos will transmit the commands received from the Odroid on the ROS network. The vehicle is in "automatic mode". When the "CH3" button is pressed again, the vehicle returns to "manual mode".
+When the "CH3" button is pressed on the transmitter (transmitter panel, top left), the Arduinos will relay the commands from the Odroid on the ROS network. The vehicle is in "automatic mode". When the "CH3" button is pressed again, the vehicle returns to "manual mode".
 
 Start the vehicle with the wheels raised off the floor. This prevents damage from the vehicle accidently driving away.
 
-When the arduino is powered on or reset, the accelerometer is calibrated for 5 seconds. Before use, place the vehicle on a flat surface, reset the Arduino and do not touch the vehicle for at least 6-7 seconds. 	
+When the Arduino is powered on or reset, the accelerometer is calibrated for 5 seconds. Place the vehicle on a flat surface, reset the Arduino and do not touch the vehicle for a couple seconds. 	
