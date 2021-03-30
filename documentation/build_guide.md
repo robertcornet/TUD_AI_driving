@@ -17,7 +17,7 @@ This document will guide you through the build process of the vehicle. Get your 
 - Adhesive aluminium foil/tape or IR-reflective tape
 - Small zip ties
 
-# Part 1, the chassis
+# Part 1: The Chassis
 Start by building the TT-02 chassis with the help of the included instructions. Use the included foam bumper (black) in the rear, and the  optional TT-01 bumper (blue) in the front. 
 
 Connect the motor:\
@@ -33,20 +33,21 @@ Your vehicle should now look similar to this:
 <img src="/images/02.jpg" height=200/>
 
 
-# Part 2, Battery Power Wiring
-The power from the battery is split to the Vehicle Electronic Speed Controller (ESC) and the DC step down to power on-board computer. We will also add a third connector so we can monitor the battery voltage.
+# Part 2: Battery Power Wiring
+The power from the battery is split to the Vehicle Electronic Speed Controller (ESC) and the DC-DC step down to power on-board computer. We will also add a third connector so we can monitor the battery voltage. The auxiliary connector is a standard servo wire with the signal wire removed:
+
+<img src="/images/04.jpg" height=200/>
+
+Cut the Tamiya connector off the ESC, and wire in the DC-DC converter, the battery connector and the auxiliary port.
+
+Solder the wires in parallel and pay attention to the polarity of the components. Leave about 15cm of battery wire. Cover the wires with heat shrink tube (remember to put it in place before soldering the wires together). This protects the exposed wires from shorting and provides strain relief for the smaller wires:
 
 <a></a>
-<img src="/images/04.jpg" height=200/>
 <img src="/images/05.jpg" height=200/>
 <img src="/images/07.jpg" height=200/>
 <img src="/images/09.jpg" height=200/>
  
  
-NOTE:
-If you use and ESC with lipo-compatible battery voltage cut-off, it will prevent the ESC from draining the battery too far. However, the on-board computer will still drain the battery. Thus, a battery monitor is recommended in any situation.
- 
-Solder the wires together and pay attention to the polarity of the components. Leave about 15cm of battery wire. Cover the wires with heat shrink tube (remember to put it in place before soldering the wires together). This protects the exposed wires from shorting and provides strain relief for the smaller wires.
 
 
 
