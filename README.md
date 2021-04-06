@@ -41,6 +41,7 @@ If you want some extra help, check out the [Operation Manual](/documentation/ope
 
 
 ## To Do
+- Try filtering IMU Data. _The IMU is polled 10-100x faster than the results are published. Try taking the average of all measurements in the publishing interval. _
 - Large steering angle mod. _For rear wheel drive drifting, a large steering angle is needed to balance the vehicle in the drift._
 - Camera Vision / Lidar module. _The usability of the Ultrasonic sensors is limited._
 - Better Inertial Navigation. _Robust algorithm to determine vehicle orientation in space._
