@@ -25,9 +25,12 @@ In the simulator you have access to the following vehicle states:
 - lateral acceleration *a<sub>y</sub>*
 - wheel rotation velocities *Ω* 
 
-Additionally, you can simulate what ultrasonic sensors would detect in different scenarios:
-- detecting room/racetrack borders (lidar)
-- single object detection (eg. determining distance to leading car)
+
+Additionally, you can generate environment borders: \
+- As a random racetrack
+- As a square room
+
+These borders can be detected with a 'lidar' simulation.
 
 
 ## Primary Simulator Functions
@@ -44,8 +47,9 @@ This is the main simulation function. It takes two inputs (steering and throttle
 It returns the new state of the car and environment, and a reward based on that state. 
 
 ## Secondary Simulator functions
-*def* render()
 
+*def* render()\
+When eval_render == True in variant.py, this function is called every step. It draws the car and the environment.
 
 ### Motor and ESC
 *def* ESC()\
@@ -94,7 +98,7 @@ Returns the distance to the walls at the angles set in SENSOR_ARRAY (*def* \_\_i
 *def* lidar_get_state() calls *def* lidar_rayDist(). There the distances can be checked in two different ways:
 1. To the walls of a room (self.track__center)
 2. To the 'walls' of a race track (self.track_left, self.track_right)\
-Both options are quite different, make sure to use the right one!
+Both options are quite different, make sure to uncomment the right one!
 
 ### Room generation
 *def* gen_room()\
@@ -108,7 +112,7 @@ Generates a random track. It is adapted from the methods discussed [here](http:/
 Checks if the generated random track is 'valid'. If a track has 'kinks' in the corners, the track will be 'invalid'. 
 
 
-## Expirimental
+## Expirimental, not recommended.
 
 ### Car following, leading car
 These functions are for running a leading car. You can use it to train your AI to follow a car using lidar or ultrasonic sensing.
